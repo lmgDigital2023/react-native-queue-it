@@ -8,7 +8,7 @@ import {
   Button,
   TextInput,
 } from 'react-native';
-import CheckBox from '@react-native-community/checkbox';
+// import CheckBox from '@react-native-community/checkbox';
 import { Colors } from 'react-native/Libraries/NewAppScreen';
 
 import {
@@ -164,11 +164,11 @@ class App extends Component<{}, AppState> {
               </View>
               <View style={styles.container}>
                 <Text>
-                  <CheckBox
+                  {/* <CheckBox
                     style={styles.mr10}
                     value={this.state.isTesting}
                     onValueChange={() => this.toggleTesting()}
-                  />
+                  /> */}
                   Enable testing
                 </Text>
               </View>
